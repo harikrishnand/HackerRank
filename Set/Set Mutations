@@ -1,0 +1,12 @@
+ns = input()
+s = set(map(int, input().split()))
+op = int(input())
+
+def fun(operation,os):
+    getattr(s,operation)(os)
+
+for i in range(op):
+    operation = input().split()[0]
+    os = set(map(int, input().split()))
+    fun(operation,os)
+print(sum(s))
