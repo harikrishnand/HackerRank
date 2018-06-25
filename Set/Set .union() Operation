@@ -1,0 +1,8 @@
+ns1 = int(input())
+s1 = set(map(int, input().split()))
+ns2 = int(input())
+s2 = set(map(int, input().split()))
+
+#print(s1.union(s2))
+
+print(len(s1.union(s2)))
