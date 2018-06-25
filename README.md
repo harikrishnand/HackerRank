@@ -2,4 +2,4 @@
 Code written for the challenges in HackerRank Challenges:
 
 
-This project contains codes for all the python specilisation challenges solved in HackRank. 
+This project contains codes for all the python specialization challenges solved in HackRank. 
