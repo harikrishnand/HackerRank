@@ -1,0 +1,17 @@
+n = int(input())
+s = set(map(int, input().split()))
+ncmd =  input()
+#print(n,s,ncmd)
+
+for i in range(int(ncmd)):
+    c = input().split()
+    #print(c)
+    if len(c) >1 :
+        try:
+            s.__getattribute__(c[0])(int(c[1]))
+        except KeyError:
+            #print('expect')
+            pass
+    else:
+        s.__getattribute__(c[0])()
+print(sum(s))
