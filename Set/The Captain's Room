@@ -1,0 +1,19 @@
+nom = int(input())
+members = list(map(int, input().split()))
+#print(rooms,members)
+"""
+for r in rooms:
+    if members.count(r) == 1:
+        print(r)
+"""
+
+rooms = set()   # Contains all the rooms.
+room_more_mem = set()   # Contains only the rooms with families.
+
+for m in members:
+    if m not in rooms:
+        rooms.add(m)
+        #print(room)
+    else:
+        room_more_mem.add(m)
+print(rooms.difference(room_more_mem).pop())
