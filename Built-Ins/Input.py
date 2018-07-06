@@ -5,4 +5,4 @@ if res == eval(equation):
     print(True)
 else:
     print(False)
-print(x,res,equation,res,exec(equation),eval(equation))
+#print(x,res,equation,res,exec(equation),eval(equation))
