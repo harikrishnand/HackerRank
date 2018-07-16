@@ -15,4 +15,4 @@ for i in  range(len(inp)):
     else:
         break
 if not st:
-    print('(-1, -1)')
+    print('(-1, -1)') 
