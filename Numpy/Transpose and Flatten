@@ -1,0 +1,8 @@
+import numpy as np
+r,c = input().split()
+
+inp = [[int(v) for v in input().split()] for i in range(int(r))]
+
+array = np.array(inp)
+T_array = np.transpose(array)
+print(np.transpose(array),array.flatten(),sep = '\n')
